@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl-pl">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krzysztof Skorupa | Web Development | Lifestyle | Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Source+Sans+Pro:300,400&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-custom">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">O mnie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="in-progress.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="in-progress.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="in-progress.html">1 %</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="in-progress.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+    <div id="home">
+        <div class="about-me">
+            <div class="row justify-content-center">
+                <img src="images/selfie_landing_page_nosmile_2.png" class="img-fluid img-face">
+            </div>
+            <div class="row justify-content-center">
+                    <h1 class="name">Krzysztof Skorupa</h1>
+            </div>
+            <div class="row justify-content-center">
+                    <h2>Full-Stack Web Developer</h2>
+            </div>
+            <div class="row justify-content-center">
+                <button id="btn-omnie" class="btn btn-outline-info">O mnie <i class="fa fa-angle-double-right"></i></button>
+            </div>
+        </div>
+
+        <div class="about-me-details">
+            <div class='content'>
+                <h1 class='title'>Cześć, <span class='subtitle'>nazywam się</span></h1>
+                <h2 class="title-comment">Krzysztof Skorupa</h2>
+                <p class='description-text'>
+                    W obecnych czasach wszystko co nas otacza w mniejszym bądź większym stopniu związane jest z programowaniem. Od najmniejszych aplikacji po ogromne systemy bankowe czy social media.
+                </p>
+                <p class='description-text'>
+                    Chęć do tworzenia aplikacji, które łączą w sobie doskonałą funkcjonalność, łatwy dostęp, unikatowy design i dają radość z użytkowania sprawiła, że obrałem sobie za cel zostać programistą ‘aka’ Full-Stack Web Developerem.
+                </p>
+            </div>
+            <div class='content'>
+                <h1 class='title'>Technologie, <span class='subtitle'>które znam</span></h1>
+                <h2 class="title-comment">Codziennie wiem o nich więcej</h2>
+                <div class="skills">
+
+                        <svg class="skills-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                            <g fill="none" stroke-width="4" stroke-miterlimit="10">
+                                <circle stroke="#C0E4D8" cx="32" cy="32" r="29.5"/>
+                                <circle id='asp' class='skill-percentage asp' stroke="#1F232C" cx="32" cy="32" r="29.5"/>
+                            </g>
+                            <g>
+                                <path d="M8.736 33.31L7.622 36.68H6.19l3.644-10.725h1.67l3.66 10.725h-1.48L12.54 33.31H8.736zm3.517-1.083l-1.05-3.087c-.24-.7-.4-1.336-.558-1.957h-.032c-.16.637-.334 1.29-.54 1.942l-1.05 3.103h3.23zM16.55 34.996c.62.38 1.528.7 2.482.7 1.416 0 2.244-.748 2.244-1.83 0-1.003-.572-1.576-2.02-2.133-1.75-.62-2.834-1.528-2.834-3.04 0-1.67 1.385-2.91 3.47-2.91 1.097 0 1.892.253 2.37.524l-.382 1.13c-.35-.19-1.066-.51-2.037-.51-1.464 0-2.02.876-2.02 1.608 0 1.002.652 1.496 2.132 2.068 1.814.7 2.737 1.576 2.737 3.15 0 1.656-1.225 3.088-3.755 3.088-1.034 0-2.164-.302-2.737-.684l.35-1.16zM24.07 26.085c.667-.11 1.543-.207 2.656-.207 1.37 0 2.37.318 3.008.89.588.51.94 1.29.94 2.245 0 .97-.288 1.734-.83 2.29-.73.78-1.924 1.178-3.277 1.178-.413 0-.796-.015-1.114-.094v4.296H24.07V26.085zm1.383 5.172c.303.08.685.11 1.146.11 1.67 0 2.69-.81 2.69-2.29 0-1.417-1.004-2.1-2.53-2.1-.606 0-1.068.047-1.306.11v4.17zM29.926 35.856c0-.59.398-1.003.954-1.003.557 0 .94.413.94 1.003 0 .572-.367 1.002-.955 1.002-.558 0-.94-.43-.94-1.002zM33.6 36.683V25.958h1.513l3.438 5.426c.797 1.257 1.417 2.386 1.927 3.485l.03-.017c-.126-1.432-.158-2.737-.158-4.408v-4.487h1.303v10.725h-1.4l-3.405-5.442c-.748-1.193-1.464-2.418-2.006-3.58l-.048.016c.08 1.353.112 2.64.112 4.424v4.583H33.6zM48.565 31.654h-4.17v3.867h4.648v1.162H43.01V25.958h5.793v1.16h-4.407v3.39h4.17v1.146zM53.13 27.135h-3.26v-1.177h7.94v1.177h-3.278v9.548h-1.4v-9.548z"/>
+                            </g>
+                        </svg>
+                        <!-- C# skill -->
+                        <svg class="skills-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                            <g fill="none" stroke-width="4" stroke-miterlimit="10">
+                                <circle stroke="#C0E4D8" cx="32" cy="32" r="29.5"/>
+                                <circle id='CS' class='skill-percentage CS' stroke="#1F232C" cx="32" cy="32" r="29.5"/>
+                            </g>
+                            <g fill="#2A4C4D">
+                                <path d="M30.887 35.11c-.22 1.88-.914 3.33-2.08 4.352-1.17 1.02-2.722 1.532-4.658 1.532-2.1 0-3.783-.753-5.05-2.258-1.264-1.506-1.897-3.52-1.897-6.043v-1.71c0-1.65.295-3.103.885-4.357.59-1.253 1.426-2.215 2.508-2.887 1.082-.672 2.335-1.008 3.76-1.008 1.888 0 3.4.527 4.54 1.58 1.14 1.055 1.803 2.514 1.99 4.377h-2.355c-.203-1.42-.644-2.45-1.324-3.086-.68-.637-1.63-.955-2.85-.955-1.498 0-2.67.553-3.522 1.66-.85 1.11-1.275 2.685-1.275 4.73v1.722c0 1.93.402 3.465 1.207 4.606s1.933 1.71 3.38 1.71c1.303 0 2.302-.294 2.998-.885.695-.59 1.157-1.617 1.385-3.082h2.357zM41.36 35.758h-3.223l-.977 4.992h-1.745l.977-4.992h-2.918v-1.686h3.234l.843-4.333h-3.148v-1.686h3.48l1-5.078h1.745l-1 5.078h3.223l1-5.078h1.758l-1 5.078h2.49v1.685h-2.82l-.842 4.332h2.746v1.686h-3.064l-.977 4.992h-1.757l.976-4.992zm-2.905-1.686h3.223l.842-4.333h-3.223l-.842 4.332z"/>
+                            </g>
+                        </svg>
+                        <!-- XAML skill -->
+                        <svg class="skills-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                            <g fill="none" stroke-width="4" stroke-miterlimit="10">
+                                <circle stroke="#C0E4D8" cx="32" cy="32" r="29.5"/>
+                                <circle id="xaml" class="skill-percentage xaml" stroke="#1F232C" cx="32" cy="32" r="29.5"/>
+                            </g>
+                            <path d="M20.29 36.857l-1.377-2.385c-.56-.912-.912-1.504-1.248-2.128h-.032c-.304.624-.608 1.2-1.168 2.144l-1.296 2.37h-1.602l3.297-5.46-3.17-5.33h1.618l1.424 2.53c.4.703.705 1.248.993 1.824h.048c.304-.64.576-1.137.977-1.825l1.473-2.53h1.6l-3.28 5.25 3.36 5.54H20.29zM25.12 33.464L24 36.857h-1.44l3.665-10.788h1.68l3.683 10.787h-1.49l-1.15-3.394H25.12zm3.537-1.088L27.6 29.27c-.24-.704-.4-1.344-.56-1.968h-.032c-.16.64-.336 1.296-.544 1.953l-1.056 3.12h3.25zM42.195 32.12c-.08-1.505-.176-3.313-.16-4.658h-.05c-.366 1.265-.815 2.61-1.358 4.098l-1.905 5.234h-1.057l-1.745-5.138c-.512-1.52-.943-2.913-1.248-4.194h-.032c-.032 1.345-.112 3.153-.208 4.77l-.288 4.625h-1.33l.753-10.788h1.776l1.842 5.217c.447 1.33.815 2.513 1.088 3.633h.048c.273-1.09.657-2.272 1.138-3.633l1.92-5.218h1.777l.673 10.787h-1.36l-.273-4.737zM45.967 26.07h1.393v9.62h4.61v1.167h-6.003V26.07z"/>
+                        </svg>
+                        <!-- HTML skill -->
+                        <svg class="skills-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                            <g fill="none" stroke-width="4" stroke-miterlimit="10">
+                                <circle stroke="#C0E4D8" cx="32" cy="32" r="29.5"/>
+                                <circle id='html' class='skill-percentage html' stroke="#1F232C" cx="32" cy="32" r="29.5"/>
+                            </g>
+                            <g fill="#2A4C4D">
+                                <path d="M19.59 37.875h-1.695V31.96h-6.45v5.915h-1.69V25.078h1.69v5.502h6.45v-5.502h1.696v12.797zM31.175 26.458h-4.113v11.417h-1.68V26.458H21.28v-1.38h9.895v1.38zM35.254 25.078l4.184 10.44 4.184-10.44h2.188v12.797h-1.688v-4.983l.158-5.38-4.2 10.363h-1.292L34.595 27.54l.168 5.352v4.983h-1.688V25.078h2.18zM49.485 36.495h6.064v1.38h-7.762V25.078h1.696v11.417z"/>
+                            </g>
+                        </svg>
+                        <!-- CSS skill -->
+                        <svg class="skills-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                            <g fill="none" stroke-width="4" stroke-miterlimit="10">
+                                <circle stroke="#C0E4D8" cx="32" cy="32" r="29.5"/>
+                                <circle id='css' class='skill-percentage css' stroke="#1F232C" cx="32" cy="32" r="29.5"/>
+                            </g>
+                            <g fill="#2A4C4D">
+                                <path d="M23.65 35.497c-.22 1.88-.915 3.33-2.082 4.352-1.168 1.02-2.72 1.53-4.657 1.53-2.1 0-3.78-.752-5.047-2.257-1.265-1.506-1.898-3.52-1.898-6.043v-1.708c0-1.652.295-3.104.885-4.358.59-1.253 1.426-2.215 2.508-2.887 1.082-.67 2.335-1.007 3.76-1.007 1.888 0 3.4.527 4.54 1.58 1.14 1.055 1.803 2.514 1.99 4.377h-2.355c-.204-1.42-.645-2.45-1.325-3.085-.68-.637-1.63-.955-2.85-.955-1.498 0-2.67.554-3.522 1.662-.85 1.107-1.275 2.683-1.275 4.727v1.723c0 1.93.404 3.466 1.21 4.605.805 1.14 1.932 1.71 3.38 1.71 1.302 0 2.3-.294 2.997-.885.695-.59 1.157-1.617 1.385-3.082h2.357zM32.084 33.215c-2.01-.578-3.473-1.288-4.39-2.13-.914-.842-1.372-1.88-1.372-3.12 0-1.398.56-2.556 1.68-3.472 1.118-.915 2.572-1.373 4.363-1.373 1.22 0 2.31.236 3.265.708.957.472 1.697 1.123 2.223 1.953s.787 1.74.787 2.723h-2.355c0-1.078-.342-1.925-1.025-2.542-.684-.615-1.648-.924-2.894-.924-1.156 0-2.057.255-2.704.765-.647.51-.97 1.217-.97 2.123 0 .726.306 1.34.92 1.84.615.5 1.66.96 3.138 1.376 1.48.415 2.633.873 3.467 1.374.834.5 1.453 1.084 1.855 1.75.404.668.605 1.453.605 2.356 0 1.44-.563 2.594-1.686 3.46-1.122.867-2.624 1.3-4.503 1.3-1.22 0-2.36-.233-3.418-.7-1.06-.47-1.875-1.11-2.45-1.924-.572-.813-.86-1.736-.86-2.77h2.357c0 1.073.397 1.922 1.19 2.544.794.623 1.854.935 3.18.935 1.237 0 2.186-.253 2.844-.758.66-.504.99-1.19.99-2.063 0-.87-.306-1.544-.915-2.02-.61-.476-1.717-.945-3.32-1.41zM46.916 33.215c-2.01-.578-3.473-1.288-4.39-2.13-.914-.842-1.372-1.88-1.372-3.12 0-1.398.56-2.556 1.68-3.472 1.117-.915 2.572-1.373 4.362-1.373 1.22 0 2.31.236 3.266.708s1.697 1.123 2.222 1.953c.525.83.788 1.74.788 2.723h-2.356c0-1.078-.342-1.925-1.025-2.542-.683-.615-1.646-.924-2.893-.924-1.155 0-2.057.255-2.703.765-.647.51-.97 1.217-.97 2.123 0 .726.306 1.34.92 1.84.615.5 1.66.96 3.138 1.376 1.478.415 2.633.873 3.467 1.374.833.5 1.452 1.084 1.854 1.75.403.668.604 1.453.604 2.356 0 1.44-.562 2.594-1.685 3.46-1.123.867-2.625 1.3-4.504 1.3-1.222 0-2.36-.233-3.42-.7-1.058-.47-1.873-1.11-2.447-1.924-.573-.813-.86-1.736-.86-2.77h2.355c0 1.073.397 1.922 1.19 2.544.794.623 1.854.935 3.18.935 1.237 0 2.186-.253 2.845-.758.66-.504.988-1.19.988-2.063 0-.87-.304-1.544-.914-2.02-.61-.476-1.716-.945-3.32-1.41z"/>
+                            </g>
+                        </svg>
+
+                </div>
+                <p class="description-text">Oprocz nich jeszcze: EntityFramework, MySQL, Javascript (jQuery)</p>
+
+                <h1 class='title'>Narzędzia <span class='subtitle'></span></h1>
+                <h2 class="title-comment">Używam ich podczas pracy</h2>
+                <div class="skills">
+
+
+                    <svg class="skills-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <g fill="none" stroke-width="4" stroke-miterlimit="10">
+                            <circle stroke="#c0e4d8" cx="32" cy="32" r="29.5"/>
+                            <circle id='ai' class='skill-percentage ai' stroke="#1F232C" cx="32" cy="32" r="29.5"/>
+                        </g>
+                        <g fill="#2A4C4D">
+                            <path d="M33.694 36.488H23.27L20.927 43h-3.384l9.502-24.883h2.87L39.437 43H36.07l-2.376-6.512zm-9.434-2.682h8.46l-4.24-11.638-4.22 11.638zM41.894 23.615c0-.426.13-.784.39-1.076.26-.294.645-.44 1.154-.44s.896.146 1.16.44c.266.29.397.65.397 1.075 0 .424-.132.778-.396 1.062s-.652.425-1.162.425-.895-.142-1.154-.425-.39-.638-.39-1.062zM44.726 43h-2.62V27.68h2.62V43z"/>
+                        </g>
+                    </svg>
+                    <!-- git skill -->
+                    <svg class="skills-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <g fill="none" stroke-width="4" stroke-miterlimit="10">
+                            <circle stroke="#C0E4D8" cx="32" cy="32" r="29.5"/>
+                            <circle id="git" class="skill-percentage git" stroke="#1F232C" cx="32" cy="32" r="29.5"/>
+                        </g>
+                        <path d="M29.126 39.363c-.858.31-2.552.814-4.555.814-2.244 0-4.092-.572-5.544-1.958-1.276-1.233-2.068-3.214-2.068-5.524.022-4.422 3.06-7.657 8.03-7.657 1.717 0 3.06.374 3.698.68l-.462 1.564c-.792-.352-1.782-.638-3.278-.638-3.608 0-5.963 2.244-5.963 5.963 0 3.76 2.266 5.984 5.72 5.984 1.255 0 2.113-.177 2.553-.396v-4.423h-3.014v-1.54h4.885v7.128zM33.965 25.194v14.83H32.05v-14.83h1.915zM40.125 26.822h-4.51v-1.628h10.978v1.628H42.06v13.2h-1.936v-13.2z"/>
+                    </svg>
+
+                </div>
+            </div>
+            <div class='content'>
+                <h1 class='title'>Programowanie <span class="subtitle">to nie wszystko</span></h1>
+                <p class="description-text add-top-margin">
+                    Komputery były wokół mnie od samego początku. Pewnie dlatego wybrałem branżę IT. Był jednak taki moment w moim życiu gdy pokochałem również motoryzację. Nie wyobrażam sobie świata bez tych dwóch wynalazków.
+                </p>
+                <p class="description-text">
+                    Zawsze czułem satysfację gdy przekazałem jakiś fragment swojej wiedzy a druga osoba mogła z tego skorzystać i ułatwiło jej to w jakiś sposób życie. Stąd w mojej głowie powstała również idea, żeby w przyszłości, gdy zdobędę odpowiednie doświadczenie, zostać prelegentem. Pierwszym krokiem jest założenie bloga, który znajdziesz na tej stronie.
+                </p>
+                <p class="description-text">
+                    Zapraszam!
+                </p>
+            </div>
+            <i id='next' class='fa fa-angle-double-right fa-4x'></i>
+            <i id='prev' class='fa fa-angle-double-left fa-4x'></i>
+            <i id='close' class='fa fa-close fa-4x'></i>
+        </div>
+
+
+        <div class="social-media-icons">
+            <div>
+                <a target="_blank" href="https://www.facebook.com/krzysztof.skorupa.79"><i class="fa fa-facebook-official fa-lg"></i></a>
+            </div>
+            <div>
+                <a target="_blank" href="https://www.linkedin.com/in/krisshell/"><i class="fa fa-linkedin-square fa-lg"></i></a>
+            </div>
+            <div>
+                <a target="_blank" href="https://github.com/krisSzell" ><i class="fa fa-github fa-lg"></i></a>
+            </div>
+            <div>
+                <a target="_blank" href="https://github.com/krisSzell" ><i class="fa fa-codepen fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function(){
+           var aboutMeDetails = $('.about-me-details');
+           var prevBtn = $('#prev');
+           var nextBtn = $('#next');
+           var content = $('.content');
+           var currentSlide = 1;
+           var translateValue = 0;
+           var skillCircles = $('.skill-percentage');
+
+           setTimeout(function() {
+               $(aboutMeDetails).addClass('slide-in');
+           }, 2000);
+
+            $('#btn-omnie').click(function(){
+                $(aboutMeDetails).addClass('slide-in');
+            });
+            $(nextBtn).click(slideNext);
+            $(prevBtn).click(slidePrev);
+            $('#close').click(function(){
+                $(aboutMeDetails).removeClass('slide-in');
+            });
+
+            function slideNext () {
+                switch (currentSlide)
+                {
+                    case 1:{
+                        translateValue = -100;
+                        $(content).css({'transform':'translate(0,' + translateValue + '%)',
+                            'transition':'all .5s ease-in'});
+                        currentSlide++;
+                        $(prevBtn).delay(300).fadeIn();
+                        loadSkills();
+                        break;
+                    }
+                    case 2:{
+                        translateValue = -200;
+                        $(content).css({'transform':'translate(0,' + translateValue + '%)',
+                            'transition':'all .5s ease-in'});
+                        currentSlide++;
+                        $(nextBtn).fadeOut();
+                        break;
+                    }
+                }
+            }
+
+            function slidePrev () {
+                switch (currentSlide)
+                {
+                    case 2:{
+                        translateValue = 0;
+                        $(content).css({'transform':'translate(0,' + translateValue + '%)',
+                            'transition':'all .5s ease-out'});
+                        currentSlide--;
+                        $(prevBtn).delay(300).fadeIn();
+                        $(prevBtn).fadeOut();
+                        break;
+                    }
+                    case 3:{
+                        translateValue = -100;
+                        $(content).css({'transform':'translate(0,' + translateValue + '%)',
+                            'transition':'all .5s ease-out'});
+                        currentSlide--;
+                        $(nextBtn).delay(300).fadeIn();
+                        break;
+                    }
+                }
+            }
+
+            function loadSkills () {
+                setTimeout(function(){
+                    for (i = 0; i < $(skillCircles).length; i++)
+                    {
+                        switch ($(skillCircles[i]).attr('id'))
+                        {
+                            case 'html':
+                            case 'css':{
+                                $(skillCircles[i]).addClass('skill-50');
+                                break;
+                            }
+                            case 'ai':
+                            case 'CS':
+                            case 'xaml':{
+                                $(skillCircles[i]).addClass('skill-30');
+                                break;
+                            }
+                            case 'asp':
+                            case 'git':{
+                                $(skillCircles[i]).addClass('skill-10');
+                                break;
+                            }
+                            default:{
+                                break;
+                            }
+                        }
+
+                    }
+                }, 800);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,456 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../fonts/CaviarDreams-webfont.eot');
+    src: url('../fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('../fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Source Sans Pro';
+    background: url("../images/MyWebsiteBg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* TOP MENU ;start; */
+.top-menu {
+    position: absolute;
+    z-index: 1;
+    top: -200px;
+    height: 200px;
+    width: 100%;
+    background-color: #C0E4D8;
+    color: #1F1E26;
+    opacity: .7;
+    transition: transform .3s cubic-bezier(.76,.96,.84,.99);
+}
+
+.top-menu .nav-link {
+    padding: 0;
+    font-size: 6em;
+    color: #173336;
+}
+.top-menu .nav-link .active {
+    border-bottom: 4px solid #173336;
+}
+
+.top-menu .nav-icon-text {
+    margin-top: -20px;
+}
+.top-menu .link {
+    cursor: pointer;
+}
+
+.open {
+    -ms-transform: translate(0, 200px); /* IE 9 */
+    -webkit-transform: translate(0, 200px); /* Chrome, Safari, Opera */
+    transform: translate(0, 200px);
+    transition: transform .3s cubic-bezier(.76,.96,.84,.99);
+}
+.top-menu--trigger-btn {
+    position: absolute;
+    z-index: 1000;
+    bottom: -40px;
+    left: calc(50% - 35px);
+    color: #C0E4D8;
+    border: 1px solid #C0E4D8;
+    border-top: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 0 0 50% 50%;
+    padding-top: 0;
+    height: 40px;
+    width: 70px;
+}
+.top-menu--trigger-btn:hover {
+    animation: pulse 2s linear infinite;
+}
+.top-menu--trigger-btn:focus {
+    outline: none;
+}
+
+/* TOP MENU ;end; */
+#home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.img-face {
+    height: 40vh;
+    margin-left: -30px;
+}
+.about-me {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    top: 15%;
+    padding-left: 15%;
+    font-family: 'caviar_dreamsregular', sans-serif;
+    color: #C0E4D8;
+}
+.about-me h1,
+.about-me h2 {
+    font-weight: 300;
+}
+.about-me h1 {
+    font-size: 3em;
+}
+.about-me button {
+    color: #C0E4D8;
+    background-color: transparent;
+    border: 1px solid #C0E4D8;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.about-me button i.fa {
+    padding-left: 10px;
+}
+
+.about-me button:focus,
+.about-me button:active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.social-media-icons {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    height: 40vh;
+    top: 30vh;
+    width: 100px;
+}
+.social-media-icons div {
+    margin-bottom: 40%;
+    padding-left: 20px;
+}
+.social-media-icons a {
+    font-size: 3em;
+    color: #C0E4D8;
+    text-shadow: 2px 3px 3px #1f1f1f;
+}
+.social-media-icons i:hover{
+    animation: pulse 2s linear infinite;
+}
+
+.social-media-icons i.fa-codepen {
+    margin-left: -5px;
+}
+.about-me-details {
+    position: absolute;
+    color: #1F1E26;
+    background-color: #47B2A2;
+    height: 80%;
+    width: 40%;
+    top: 10%;
+    left: 50%;
+    transform: translate(0, -200%);
+    opacity: .9;
+    overflow: hidden;
+}
+.about-me-details .fa {
+    cursor: pointer;
+    position: absolute;
+    padding: 5px;
+}
+.about-me-details .fa-close {
+    position: absolute;
+    padding: 5px;
+    right: 0;
+    top: 0;
+}
+.about-me-details .fa-angle-double-right,
+.about-me-details .fa-angle-double-left {
+    bottom: 0;
+}
+.about-me-details .fa-angle-double-right {
+    right: 0;
+    animation: next-cta 2s ease-in-out infinite;
+}
+.about-me-details .fa-angle-double-left {
+    display: none;
+    left: 0;
+}
+.about-me-details .fa-close:hover {
+transform: rotate(360deg);
+transition: all .8s;
+}
+.content {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+.content .title {
+    padding-top: 5%;
+    margin-bottom: 0;
+    text-wrap: normal;
+    color: #1A2D31;
+    font-size: 3.5em;
+}
+.content .subtitle {
+    opacity: .7;
+    font-size: 90%;
+}
+.content .title-comment {
+    font-size: 2.75em;
+}
+.content .description-text {
+    font-size: 1.5em;
+}
+.add-top-margin {
+    margin-top: 10px;
+}
+.slide-up {
+    transform: translate(0, -100%);
+    transition: all 1s;
+}
+.skills {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+.skills-icons {
+
+}
+svg {
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+}
+.skill-percentage {
+    stroke-dasharray: 185;
+    stroke-dashoffset: 185;
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.skill-10 {
+    animation-name: skill-10perc;
+}
+.skill-20 {
+    animation-name: skill-20perc;
+}
+.skill-30 {
+    animation-name: skill-30perc;
+}
+.skill-50 {
+    animation-name: skill-50perc;
+}
+
+.bounce {
+    animation: bounceOutRight 3s ease-in-out infinite;
+}
+.slide-in {
+    animation: slideIn .5s ease-out;
+    animation-fill-mode: forwards;
+}
+.slide-out {
+    animation: slideIn .5s ease-out;
+    animation-direction: reverse;
+}
+
+@media screen and (max-width:768px) {
+
+    .about-me {
+        width: 85%;
+        left: 15%;
+        margin: auto;
+    }
+
+    .about-me h1 {
+        font-size: 2em;
+    }
+    .about-me h2 {
+        font-size: 1.5em;
+    }
+    .social-media-icons {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        bottom: 5%;
+        top: auto;
+        width: 100%;
+        left: 0;
+    }
+    .social-media-icons div {
+        margin-bottom: 0;
+    }
+    .social-media-icons a {
+        font-size: 1.5em;
+    }
+    .about-me-details {
+        width: 100%;
+        margin: auto;
+        height: 75%;
+        top: 10%;
+        right: 0;
+        left: 0;
+        border: none;
+        overflow: auto;
+    }
+    .about-me-details h1 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    .about-me-details h2 {
+        font-size: 1.75em;
+    }
+    .about-me-details p {
+        padding: 0 5%;
+        font-size: 1.125em;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1200px){
+
+    .about-me {
+        padding-left: 10%;
+        width: 40%;
+    }
+    .about-me h1 {
+        font-size: 2.5em;
+    }
+    .about-me h2 {
+        font-size: 1.75em;
+    }
+    .about-me-details {
+        width: 50%;
+        left: 40%;
+    }
+    .content .title {
+        font-size: 3em;
+    }
+    .content .title-comment {
+        font-size: 2em;
+    }
+    .content .description-text {
+        font-size: 1.25em;
+    }
+}
+
+/* ANIMATIONS */
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes bounceOutRight {
+
+    0%{
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 30px;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+@keyframes slideIn {
+    0% {
+        transform: translate(0, -200%);
+        opacity: 0;
+    }
+    25% {
+        opacity: .25;
+    }
+    50% {
+        opacity: .5;
+    }
+    75% {
+        opacity: .75;
+    }
+    100% {
+        transform: none;
+        opacity: .9;
+    }
+}
+@keyframes skill-10perc {
+    from{
+        stroke-dashoffset: 185;
+    }
+    to{
+        stroke-dashoffset: 166.5;
+    }
+}
+@keyframes skill-20perc {
+    from{
+        stroke-dashoffset: 185;
+    }
+    to{
+        stroke-dashoffset: 148;
+    }
+}
+@keyframes skill-30perc {
+    from{
+        stroke-dashoffset: 185;
+    }
+    to{
+        stroke-dashoffset: 129.5;
+    }
+}
+@keyframes skill-40perc {
+    from{
+        stroke-dashoffset: 185;
+    }
+    to{
+        stroke-dashoffset: 111;
+    }
+}
+@keyframes skill-50perc {
+    from{
+        stroke-dashoffset: 185;
+    }
+    to{
+        stroke-dashoffset: 92.5;
+    }
+}
+
+@keyframes next-cta {
+    0%{
+        margin-right: 0;
+    }
+    50% {
+        margin-right: 10px;
+    }
+    100% {
+        margin-right: 0;
+    }
+}
