@@ -1,0 +1,63 @@
+.glitch:before,
+.glitch:after {
+  display: block;
+  content: 'coś więcej niż programowanie';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: .8;
+}
+.glitch:after {
+  color: #f18f00;
+  z-index: -1;
+  animation: glitch 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+.glitch:before {
+  color: #241D24;
+  z-index: -2;
+  animation: glitch 1.8s cubic-bezier(0.18, 0.39, 0.54, 0.78) reverse infinite;
+}
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -1px);
+  }
+  60% {
+    transform: translate(1px, 3px);
+  }
+  80% {
+    transform: translate(1px, -2px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+@media (min-width: 576px) {
+  @keyframes glitch {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-3px, 2px);
+    }
+    40% {
+      transform: translate(-4px, -3px);
+    }
+    60% {
+      transform: translate(2px, 3px);
+    }
+    80% {
+      transform: translate(1px, -2px);
+    }
+    to {
+      transform: translate(0);
+    }
+  }
+}

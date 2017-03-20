@@ -1,0 +1,10 @@
+.main-header {
+  color: #f18f00;
+  height: 200px;
+}
+.main-header .row {
+  height: 100%;
+}
+.main-header .main-head-text {
+  font-size: 3em;
+}

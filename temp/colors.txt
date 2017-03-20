@@ -1,0 +1,3 @@
+Text-color  #023f47
+Primary-color #16afc4
+Secondary-color #f18f00
