@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.devbulb.com.pl/</loc>
+  <lastmod>2017-03-22T19:53:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.devbulb.com.pl/blog/dev/posts.html</loc>
+  <lastmod>2017-03-22T19:53:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.devbulb.com.pl/blog/lifestyle/posts.html</loc>
+  <lastmod>2017-03-22T19:53:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.devbulb.com.pl/blog/dsp2017/posts.html</loc>
+  <lastmod>2017-03-22T19:53:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.devbulb.com.pl/about.html</loc>
+  <lastmod>2017-03-22T19:53:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.devbulb.com.pl/blog/dsp2017/post/money-guard_1.html</loc>
+  <lastmod>2017-03-22T19:53:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.devbulb.com.pl/blog/dsp2017/post/money-guard_0.html</loc>
+  <lastmod>2017-03-22T19:53:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.devbulb.com.pl/blog/dsp2017/post/start-dsp.html</loc>
+  <lastmod>2017-03-22T19:53:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.devbulb.com.pl/index.html</loc>
+  <lastmod>2017-03-22T19:53:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
