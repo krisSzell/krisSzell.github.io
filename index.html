@@ -1,241 +1,273 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Devbulb coś więcej niż programowanie">
-	<meta name="keywords" content=".NET, microsoft, blog, lifestyle, studia, it, programowanie, inspiracja, przemyślenia, opinie, sposoby, nauka, kariera, junior, dev">
-	<meta name="author" content="Krzysztof Skorupa">
-	<meta name="google-site-verification" content="j9-tTL4Gow_xwObxbrCq2JsWUiMSM5jINabZIZTryn4" />
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="theme-color" content="#292b2c">
+    <meta name="description" content="Devbulb coś więcej niż programowanie">
+    <meta name="keywords" content=".NET, microsoft, blog, lifestyle, studia, it, programowanie, inspiracja, przemyślenia, opinie, sposoby, nauka, kariera, junior, dev">
+    <meta name="author" content="Krzysztof Skorupa">
+    <meta name="google-site-verification" content="j9-tTL4Gow_xwObxbrCq2JsWUiMSM5jINabZIZTryn4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#292b2c">
     <title>Devbulb | Blog | Lifestyle | Portfolio</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&subset=latin-ext" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.min.css" />
 </head>
+
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1454905917876608";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="nav-bg"></div>
-<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse-opaque">
-    <div class="container container-navbar">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1454905917876608";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="nav-bg"></div>
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse-opaque">
+        <div class="container container-navbar">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">
-            <img src="images/devbulb_logo.png" class="d-inline-block align-top" alt="Devbulb Logo">
-            <span class="navbar-brand-name">Devbulb</span>
-        </a>
+            <a class="navbar-brand" href="#">
+                <img src="images/devbulb_logo.png" class="d-inline-block align-top" alt="Devbulb Logo">
+                <span class="navbar-brand-name">Devbulb</span>
+            </a>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <nav class="navbar-nav mt-2 mt-md-0">
-                <a class="nav-link" href="blog/dev/posts.html">Dev</a>
-                <a class="nav-link" href="blog/lifestyle/posts.html">Lifestyle</a>
-                <a class="nav-link" href="blog/dsp2017/posts.html"><img src="images/dsp2017-3.png" class="img-fluid navbar-img" alt="dsp2017 logo" /> DSP 2017</a>
-                <a class="nav-link disabled" >Portfolio</a>
-                <a class="nav-link disabled" >1 Procent</a>
-                <a class="nav-link" href="about.html">O mnie</a>
-            </nav>
-        </div>
-    </div>
-</nav>
-
-<header class="main-header">
-    <div class="container">
-        <div class="row justify-content-start align-items-center main-head">
-            <img src="images/devbulb_logo.png" class="img-fluid main-head-img" alt="Devbulb logo big">
-            <h1 class="main-head-text">Devbulb</h1>
-        </div>
-        <div class="row justify-content-center">
-            <h3 class="brand-slogan glitch">coś więcej niż programowanie</h3>
-        </div>
-    </div>
-</header>
-
-<section class="container main-section">
-    <div class="row">
-
-        <div class="col-sm-12 col-md-8 blog-main">
-		
-			<article class="blog-post">
-                <div class="blog-post-head">
-                    <div>
-                        <img src="images/5-krokow-do-dyscypliny.jpg" class="img-fluid rounded blog-post-img-thumb" alt="image of starting line">
-                        <h2 class="blog-post-title">Popraw swoją DYSCYPLINĘ na 5 prostych sposobów.</h2>
-                    </div>
-                    <div class="blog-post-meta">
-                        <p class="blog-post-meta">Kwiecień 18, 2017 przez <a class="link-secondary" href="about.html">Krzysztof Skorupa</a></p>
-                        <a href="blog/lifestyle/posts.html"><span class="badge badge-primary">lifestyle</span></a>
-                    </div>
-                    <h3 class="blog-post-attention-p">Jeśli tutaj jesteś to dlatego, że zmierzasz w stronę sukcesu i niebanalnych osiągnięć. Wyznaczasz sobie ambitne cele. 
-						Zaczynasz do nich dążyć i … Coś w Tobie pęka, tracisz zapał i wracasz do swojego starego trybu życia.</h3>
-					<a href="blog/lifestyle/post/5-krokow-do-dyscypliny.html#post-body-mg-1" class="btn btn-warning">Czytaj więcej &hellip;</a>
-                </div>
-			</article>
-		
-			<div class="divider"></div>
-		
-            <article class="blog-post">
-                <div>
-                    <img src="images/money-guard-1.jpg" class="img-fluid rounded blog-post-img-thumb" alt="Image of task list">
-                    <h2 class="blog-post-title">MoneyGuard_1 czyli z głowy na papier.</h2>
-                </div>
-                <div class="blog-post-meta">
-                    <p class="blog-post-meta">Marzec 15, 2017 przez <a class="link-secondary" href="about.html">Krzysztof Skorupa</a></p>
-                    <a href="blog/dsp2017/posts.html"><span class="badge badge-primary">dsp2017</span></a>
-                </div>
-                <h3 class="blog-post-attention-p">Każda aplikacja była na początku tylko pomysłem. Ten przelany na papier stawał się zarysem projektu. Stworzenie pustego szablonu w IDE zaczynało wszystko.</h3>
-                <a href="blog/dsp2017/post/money-guard_1.html#post-body-mg-1" class="btn btn-warning">Czytaj więcej &hellip;</a>
-            </article>
-
-            <div class="divider"></div>
-
-            <article class="blog-post">
-                <div class="blog-post-head">
-                    <div>
-                        <img src="images/money-guard-0.jpg" class="img-fluid rounded blog-post-img-thumb" alt="image of starting line">
-                        <h2 class="blog-post-title">Poznaj MoneyGuard, czyli co i jak</h2>
-                    </div>
-                    <div class="blog-post-meta">
-                        <p class="blog-post-meta">Marzec 12, 2017 przez <a class="link-secondary" href="about.html">Krzysztof Skorupa</a></p>
-                        <a href="blog/dsp2017/posts.html"><span class="badge badge-primary">dsp2017</span></a>
-                    </div>
-                    <h3 class="blog-post-attention-p">Pomysł narodził się już chwilę temu. Na co dzień używam podobnej aplikacji mobilnej więc czemu miałbym nie napisać swojej, webowej, wersji?</h3>
-                </div>
-                <a href="blog/dsp2017/post/money-guard_0.html#post-body-mg-1" class="btn btn-warning">Czytaj więcej &hellip;</a>
-            </article>
-
-            <div class="divider"></div>
-
-            <article class="blog-post">
-                <div class="blog-post-head">
-                    <div>
-                        <img src="images/start-dsp.jpg" class="img-fluid rounded blog-post-img-thumb" alt="image of hiker in the mountains">
-                        <h2 class="blog-post-title">Szybka (wolna) decyzja, czyli mój start w DSP2017</h2>
-                    </div>
-                    <div class="blog-post-meta">
-                        <p class="blog-post-meta">Marzec 11, 2017 przez <a class="link-secondary" href="about.html">Krzysztof Skorupa</a></p>
-                        <a href="blog/dsp2017/posts.html"><span class="badge badge-primary">dsp2017</span></a>
-                    </div>
-                    <h3 class="blog-post-attention-p">Kilka miesięcy temu natknąłem się na <a href="http://devstyle.pl">devstyle.pl</a>. „o, całkiem spoko!” – myk gdzieś tam głęboko w zakładki. <br/>I tak sobie strona pogrzebana leżała. Niedawno wróciła ale nie z zakładek, po prostu znów pojawiła się w newsfeedzie na Facebooku.</h3>
-                </div>
-                <a href="blog/dsp2017/post/start-dsp.html#post-body-mg-1" class="btn btn-warning">Czytaj więcej &hellip;</a>
-            </article>
-            <div class="row share-buttons">
-                <div class="col-md-8">
-                    <p>Bądź na bieżąco i polub <strong class="color-primary text-attention">Devbulb</strong> na Facebooku, napisz do mnie maila lub zaczep na Tweeterze.</p>
-                    <div class="row justify-content-start align-items-center blog-post-share">
-                        <iframe class="fb-share" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fdevbulbcompl&width=60&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId=1454905917876608"></iframe>
-                        <a href="https://twitter.com/intent/tweet?text=Poznaj+devbulb+-+coś+więcej+niż+programowanie+na+&original_referer=http://devbulb.com.pl/&via=krisSzell" class="twitter-mention-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        <div class="btn btn-email"><a href="mailto:skorupa.krzysztof1@gmail.com?subject=devbulb.com.pl+-+poznajmy+się"><img src="images/mail-icon.png"  alt="main icon"><span>Napisz email</span></a></div>
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <nav class="navbar-nav mt-2 mt-md-0">
+                    <a class="nav-link" href="blog/dev/posts.html">Dev</a>
+                    <a class="nav-link" href="blog/lifestyle/posts.html">Lifestyle</a>
+                    <a class="nav-link" href="blog/dsp2017/posts.html"><img src="images/dsp2017-3.png" class="img-fluid navbar-img" alt="dsp2017 logo" /> DSP 2017</a>
+                    <a class="nav-link disabled">Portfolio</a>
+                    <a class="nav-link disabled">1 Procent</a>
+                    <a class="nav-link" href="about.html">O mnie</a>
+                </nav>
             </div>
         </div>
+    </nav>
 
-        <div class="col-sm-3 offset-sm-1 blog-sidebar">
-            <div class="sidebar-module sidebar-module-fb">
-                <div class="fb-page"
-                     data-href="https://www.facebook.com/devbulbcompl"
-                     data-tabs="timeline"
-                     data-small-header="false"
-                     data-adapt-container-width="true"
-                     data-hide-cover="false"
-                     data-height="300"
-                     data-show-facepile="true">
-                    <blockquote cite="https://www.facebook.com/devbulbcompl" class="fb-xfbml-parse-ignore">
-                        <a href="https://www.facebook.com/devbulbcompl">Devbulb.com.pl - coś więcej niż programowanie</a>
-                    </blockquote>
-                </div>
+    <header class="main-header">
+        <div class="container">
+            <div class="row justify-content-start align-items-center main-head">
+                <img src="images/devbulb_logo.png" class="img-fluid main-head-img" alt="Devbulb logo big">
+                <h1 class="main-head-text">Devbulb</h1>
             </div>
-            <div class="sidebar-module sidebar-module-inset">
-                <h4>O mnie</h4>
-                <img src="images/selfie-2.png" class="img-fluid img-small" alt="image of the author">
-                <p>Student, (wkrótce) Full-Stack Web Developer, od niedawna blogger, entuzjasta motoryzacji, pasjonat technologii <em class="color-primary"><b>Microsoftu</b></em>. Jeśli słyszysz zbyt głośną muzykę to prawdopodobnie ja.</p>
+            <div class="row justify-content-center">
+                <h3 class="brand-slogan glitch">coś więcej niż programowanie</h3>
             </div>
-            <div class="sidebar-module">
-                <h4>Kategorie</h4>
-                <ol class="list-unstyled">
-                    <li><a href="blog/dev/posts.html">Dev</a></li>
-                    <li><a href="blog/lifestyle/posts.html">Lifestyle</a></li>
-                    <li><a href="blog/dsp2017/posts.html">DSP 2017</a></li>
-                </ol>
-            </div>
-            <div class="sidebar-module">
-                <h4>Tutaj też mnie znajdziesz</h4>
-                <ol class="list-unstyled">
-                    <li><a href="https://www.facebook.com/krisSzell">Facebook</a></li>
-                    <li><a href="https://www.linkedin.com/in/krisshell/">LinkedIN</a></li>
-                    <li><a href="https://twitter.com/krisSzell">Twitter</a></li>
-                    <li><a href="https://github.com/krisSzell">GitHub</a></li>
-                    <li><a href="https://www.instagram.com/kris_szell/">Instagram</a></li>
-                    <li><a href="http://codepen.io/krisSzell/">Codepen</a></li>
-                </ol>
-            </div>
-        </div><!-- /.blog-sidebar -->
+        </div>
+    </header>
 
-    </div>
-</section>
-
-<footer class="text-muted">
-    <div class="container">
+    <section class="container main-section">
         <div class="row">
-            <div class="col-sm">
-                <h4>Krzysztof Skorupa</h4>
-                <img src="images/selfie.png" class="img-fluid img-small" alt="image of the autor">
-                <p>Student / (wkrótce) Full-Stack Web Developer / Początkujący blogger / Entuzjasta motoryzacji / Hobbistyczny designer / <a href="about.html" class="link-secondary">więcej &hellip;</a></p>
-            </div>
-            <div class="col-sm">
-                <h4>Social Media</h4>
-                <div class="row justify-content-start align-items-around social-media-links">
-                    <a href="https://www.facebook.com/krisSzell"><i class="fa fa-facebook-f fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/in/krisshell/"><i class="fa fa-linkedin fa-2x"></i></a>
-                    <a href="https://twitter.com/krisSzell"><i class="fa fa-twitter fa-2x"></i></a>
-                    <a href="https://github.com/krisSzell"><i class="fa fa-github fa-2x"></i></a>
-                    <a href="https://www.instagram.com/kris_szell/"><i class="fa fa-instagram fa-2x"></i></a>
-                    <a href="http://codepen.io/krisSzell/"><i class="fa fa-codepen fa-2x"></i></a>
+
+            <div class="col-sm-12 col-md-8 blog-main">
+
+                <article class="blog-post">
+                    <div class="blog-post-head">
+                        <div>
+                            <img src="images/uzaleznienie.jpg" class="img-fluid rounded blog-post-img-thumb" alt="image of broken chain fence">
+                            <h2 class="blog-post-title">Pokonaj uzależnienie i przekonaj się kim jesteś.</h2>
+                        </div>
+                        <div class="blog-post-meta">
+                            <p class="blog-post-meta">Maj 2, 2017 przez <a class="link-secondary" href="about.html">Krzysztof Skorupa</a></p>
+                            <a href="blog/lifestyle/posts.html"><span class="badge badge-primary">lifestyle</span></a>
+                        </div>
+                        <i class="anchor" id="post-body-mg-1"></i>
+                        <h3 class="blog-post-attention-p">
+                            Stoisz w miejscu, czujesz pustkę. Patrzysz przed siebie, znów pustka. Jedziesz autostradą z zaciągniętym ręcznym. Coś jest
+                            nie tak ale nie wiesz co z tym zrobić. Kiedyś było inaczej &hellip;
+                        </h3>
+                        <a href="blog/lifestyle/post/uzaleznienie.html#post-body-mg-1" class="btn btn-warning">Czytaj więcej &hellip;</a>
+                    </div>
+                </article>
+
+                <div class="divider"></div>
+
+                <article class="blog-post">
+                    <div class="blog-post-head">
+                        <div>
+                            <img src="images/5-krokow-do-dyscypliny.jpg" class="img-fluid rounded blog-post-img-thumb" alt="image of starting line">
+                            <h2 class="blog-post-title">Popraw swoją DYSCYPLINĘ na 5 prostych sposobów.</h2>
+                        </div>
+                        <div class="blog-post-meta">
+                            <p class="blog-post-meta">Kwiecień 18, 2017 przez <a class="link-secondary" href="about.html">Krzysztof Skorupa</a></p>
+                            <a href="blog/lifestyle/posts.html"><span class="badge badge-primary">lifestyle</span></a>
+                        </div>
+                        <h3 class="blog-post-attention-p">Jeśli tutaj jesteś to dlatego, że zmierzasz w stronę sukcesu i niebanalnych osiągnięć. Wyznaczasz
+                            sobie ambitne cele. Zaczynasz do nich dążyć i … Coś w Tobie pęka, tracisz zapał i wracasz do
+                            swojego starego trybu życia.</h3>
+                        <a href="blog/lifestyle/post/5-krokow-do-dyscypliny.html#post-body-mg-1" class="btn btn-warning">Czytaj więcej &hellip;</a>
+                    </div>
+                </article>
+
+                <div class="divider"></div>
+
+                <article class="blog-post">
+                    <div>
+                        <img src="images/money-guard-1.jpg" class="img-fluid rounded blog-post-img-thumb" alt="Image of task list">
+                        <h2 class="blog-post-title">MoneyGuard_1 czyli z głowy na papier.</h2>
+                    </div>
+                    <div class="blog-post-meta">
+                        <p class="blog-post-meta">Marzec 15, 2017 przez <a class="link-secondary" href="about.html">Krzysztof Skorupa</a></p>
+                        <a href="blog/dsp2017/posts.html"><span class="badge badge-primary">dsp2017</span></a>
+                    </div>
+                    <h3 class="blog-post-attention-p">Każda aplikacja była na początku tylko pomysłem. Ten przelany na papier stawał się zarysem projektu.
+                        Stworzenie pustego szablonu w IDE zaczynało wszystko.</h3>
+                    <a href="blog/dsp2017/post/money-guard_1.html#post-body-mg-1" class="btn btn-warning">Czytaj więcej &hellip;</a>
+                </article>
+
+                <div class="divider"></div>
+
+                <article class="blog-post">
+                    <div class="blog-post-head">
+                        <div>
+                            <img src="images/money-guard-0.jpg" class="img-fluid rounded blog-post-img-thumb" alt="image of starting line">
+                            <h2 class="blog-post-title">Poznaj MoneyGuard, czyli co i jak</h2>
+                        </div>
+                        <div class="blog-post-meta">
+                            <p class="blog-post-meta">Marzec 12, 2017 przez <a class="link-secondary" href="about.html">Krzysztof Skorupa</a></p>
+                            <a href="blog/dsp2017/posts.html"><span class="badge badge-primary">dsp2017</span></a>
+                        </div>
+                        <h3 class="blog-post-attention-p">Pomysł narodził się już chwilę temu. Na co dzień używam podobnej aplikacji mobilnej więc czemu miałbym
+                            nie napisać swojej, webowej, wersji?</h3>
+                    </div>
+                    <a href="blog/dsp2017/post/money-guard_0.html#post-body-mg-1" class="btn btn-warning">Czytaj więcej &hellip;</a>
+                </article>
+
+                <div class="divider"></div>
+
+                <article class="blog-post">
+                    <div class="blog-post-head">
+                        <div>
+                            <img src="images/start-dsp.jpg" class="img-fluid rounded blog-post-img-thumb" alt="image of hiker in the mountains">
+                            <h2 class="blog-post-title">Szybka (wolna) decyzja, czyli mój start w DSP2017</h2>
+                        </div>
+                        <div class="blog-post-meta">
+                            <p class="blog-post-meta">Marzec 11, 2017 przez <a class="link-secondary" href="about.html">Krzysztof Skorupa</a></p>
+                            <a href="blog/dsp2017/posts.html"><span class="badge badge-primary">dsp2017</span></a>
+                        </div>
+                        <h3 class="blog-post-attention-p">Kilka miesięcy temu natknąłem się na <a href="http://devstyle.pl">devstyle.pl</a>. „o, całkiem spoko!”
+                            – myk gdzieś tam głęboko w zakładki. <br/>I tak sobie strona pogrzebana leżała. Niedawno wróciła
+                            ale nie z zakładek, po prostu znów pojawiła się w newsfeedzie na Facebooku.</h3>
+                    </div>
+                    <a href="blog/dsp2017/post/start-dsp.html#post-body-mg-1" class="btn btn-warning">Czytaj więcej &hellip;</a>
+                </article>
+                <div class="row share-buttons">
+                    <div class="col-md-8">
+                        <p>Bądź na bieżąco i polub <strong class="color-primary text-attention">Devbulb</strong> na Facebooku,
+                            napisz do mnie maila lub zaczep na Tweeterze.</p>
+                        <div class="row justify-content-start align-items-center blog-post-share">
+                            <iframe class="fb-share" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fdevbulbcompl&width=60&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId=1454905917876608"></iframe>
+                            <a href="https://twitter.com/intent/tweet?text=Poznaj+devbulb+-+coś+więcej+niż+programowanie+na+&original_referer=http://devbulb.com.pl/&via=krisSzell"
+                                class="twitter-mention-button" data-show-count="false">Tweet</a>
+                            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <div class="btn btn-email">
+                                <a href="mailto:skorupa.krzysztof1@gmail.com?subject=devbulb.com.pl+-+poznajmy+się"><img src="images/mail-icon.png" alt="main icon"><span>Napisz email</span></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <h4>Ciekawe miejsca</h4>
-                <a href="https://unsplash.com/new?grid=multi">Unsplash</a>
-                <a href="https://www.lumosity.com/">Lumosity</a>
-                <a href="http://volantification.pl/">Volantification</a>
-                <a href="https://css-tricks.com">CSS-Tricks</a>
-                <a href="https://devstyle.pl">devstyle.pl</a>
-            </div>
-        </div>
-        <p class="float-right">
-            <a href="#">Back to top</a>
-        </p>
-		
-        <p><i>Built with Bootstrap 4</i> | Copyright &copy; 2017 | <a href="about.html" class="link-secondary">Krzysztof Skorupa</a></p>
-    </div>
-</footer>
 
-    <script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            <div class="col-sm-3 offset-sm-1 blog-sidebar">
+                <div class="sidebar-module sidebar-module-fb">
+                    <div class="fb-page" data-href="https://www.facebook.com/devbulbcompl" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+                        data-hide-cover="false" data-height="300" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/devbulbcompl" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/devbulbcompl">Devbulb.com.pl - coś więcej niż programowanie</a>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="sidebar-module sidebar-module-inset">
+                    <h4>O mnie</h4>
+                    <img src="images/selfie-2.png" class="img-fluid img-small" alt="image of the author">
+                    <p>Student, (wkrótce) Full-Stack Web Developer, od niedawna blogger, entuzjasta motoryzacji, pasjonat technologii
+                        <em class="color-primary"><b>Microsoftu</b></em>. Jeśli słyszysz zbyt głośną muzykę to prawdopodobnie
+                        ja.
+                    </p>
+                </div>
+                <div class="sidebar-module">
+                    <h4>Kategorie</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="blog/dev/posts.html">Dev</a></li>
+                        <li><a href="blog/lifestyle/posts.html">Lifestyle</a></li>
+                        <li><a href="blog/dsp2017/posts.html">DSP 2017</a></li>
+                    </ol>
+                </div>
+                <div class="sidebar-module">
+                    <h4>Tutaj też mnie znajdziesz</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="https://www.facebook.com/krisSzell">Facebook</a></li>
+                        <li><a href="https://www.linkedin.com/in/krisshell/">LinkedIN</a></li>
+                        <li><a href="https://twitter.com/krisSzell">Twitter</a></li>
+                        <li><a href="https://github.com/krisSzell">GitHub</a></li>
+                        <li><a href="https://www.instagram.com/kris_szell/">Instagram</a></li>
+                        <li><a href="http://codepen.io/krisSzell/">Codepen</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- /.blog-sidebar -->
+
+        </div>
+    </section>
+
+    <footer class="text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h4>Krzysztof Skorupa</h4>
+                    <img src="images/selfie.png" class="img-fluid img-small" alt="image of the autor">
+                    <p>Student / (wkrótce) Full-Stack Web Developer / Początkujący blogger / Entuzjasta motoryzacji / Hobbistyczny
+                        designer / <a href="about.html" class="link-secondary">więcej &hellip;</a></p>
+                </div>
+                <div class="col-sm">
+                    <h4>Social Media</h4>
+                    <div class="row justify-content-start align-items-around social-media-links">
+                        <a href="https://www.facebook.com/krisSzell"><i class="fa fa-facebook-f fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/krisshell/"><i class="fa fa-linkedin fa-2x"></i></a>
+                        <a href="https://twitter.com/krisSzell"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a href="https://github.com/krisSzell"><i class="fa fa-github fa-2x"></i></a>
+                        <a href="https://www.instagram.com/kris_szell/"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="http://codepen.io/krisSzell/"><i class="fa fa-codepen fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <h4>Ciekawe miejsca</h4>
+                    <a href="https://unsplash.com/new?grid=multi">Unsplash</a>
+                    <a href="https://www.lumosity.com/">Lumosity</a>
+                    <a href="http://volantification.pl/">Volantification</a>
+                    <a href="https://css-tricks.com">CSS-Tricks</a>
+                    <a href="https://devstyle.pl">devstyle.pl</a>
+                </div>
+            </div>
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+
+            <p><i>Built with Bootstrap 4</i> | Copyright &copy; 2017 | <a href="about.html" class="link-secondary">Krzysztof Skorupa</a></p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
     <script src="js/tweetBtn.js"></script>
 </body>
+
 </html>
