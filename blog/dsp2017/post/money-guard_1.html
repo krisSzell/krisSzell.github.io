@@ -1,226 +1,264 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Devbulb coś więcej niż programowanie">
-		<meta name="keywords" content=".NET, microsoft, blog, lifestyle, studia, it, programowanie, inspiracja, przemyślenia, opinie, sposoby, nauka, kariera, junior, dev">
-	<meta name="author" content="Krzysztof Skorupa">
+    <meta name="description" content="Devbulb coś więcej niż programowanie">
+    <meta name="keywords" content=".NET, microsoft, blog, lifestyle, studia, it, programowanie, inspiracja, przemyślenia, opinie, sposoby, nauka, kariera, junior, dev">
+    <meta name="author" content="Krzysztof Skorupa">
     <title>Devbulb | Blog | Lifestyle | Portfolio</title>
-	<link rel="apple-touch-icon" sizes="180x180" href="../../../apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="../../../favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="../../../favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="../../../manifest.json">
-	<link rel="mask-icon" href="../../../safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="theme-color" content="#292b2c">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../../../favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../../favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../../../manifest.json">
+    <link rel="mask-icon" href="../../../safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#292b2c">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&subset=latin-ext" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../../../css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="../../../css/styles.min.css" />
     <link rel="stylesheet" type="text/css" href="../../../css/blog.min.css" />
 </head>
+
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1454905917876608";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="nav-bg"></div>
-<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse-opaque">
-    <div class="container container-navbar">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1454905917876608";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="nav-bg"></div>
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse-opaque">
+        <div class="container container-navbar">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="../../../index.html">
-            <img src="../../../images/devbulb_logo.png" class="d-inline-block align-top" alt="Devbulb Logo">
-            <span class="navbar-brand-name">Devbulb</span>
-        </a>
+            <a class="navbar-brand" href="../../../index.html">
+                <img src="../../../images/devbulb_logo.png" class="d-inline-block align-top" alt="Devbulb Logo">
+                <span class="navbar-brand-name">Devbulb</span>
+            </a>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <nav class="navbar-nav mt-2 mt-md-0">
-                <a class="nav-link" href="../../dev/posts.html">Dev</a>
-                <a class="nav-link" href="../../lifestyle/posts.html">Lifestyle</a>
-                <a class="nav-link active" href="../posts.html"><img src="../../../images/dsp2017-3.png" class="img-fluid navbar-img" alt="dsp2017 logo" /> DSP 2017</a>
-                <a class="nav-link disabled" >Portfolio</a>
-                <a class="nav-link disabled" >1 Procent</a>
-                <a class="nav-link" href="../../../about.html">O mnie</a>
-            </nav>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <nav class="navbar-nav mt-2 mt-md-0">
+                    <a class="nav-link" href="../../dev/posts.html">Dev</a>
+                    <a class="nav-link" href="../../lifestyle/posts.html">Lifestyle</a>
+                    <a class="nav-link active" href="../posts.html"><img src="../../../images/dsp2017-3.png" class="img-fluid navbar-img" alt="dsp2017 logo" /> DSP 2017</a>
+                    <a class="nav-link disabled">Portfolio</a>
+                    <a class="nav-link disabled">1 Procent</a>
+                    <a class="nav-link" href="../../../about.html">O mnie</a>
+                </nav>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<header class="main-header">
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <h3 class="main-header-headline">Blog / Daj się poznać 2017</h3>
+    <header class="main-header">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <h3 class="main-header-headline">Blog / Daj się poznać 2017</h3>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<section class="container main-section">
-    <div class="row">
+    <section class="container main-section">
+        <div class="row">
 
-        <div class="col-sm-8 blog-main">
-            <article class="blog-post">
-                <div class="blog-post-head">
-                    <div>
-                        <img src="../../../images/money-guard-1.jpg" class="img-fluid rounded blog-post-img" alt="image of task list">
-                        <h2 class="blog-post-title">MoneyGuard_1 czyli z głowy na papier.</h2>
+            <div class="col-sm-8 blog-main">
+                <article class="blog-post">
+                    <div class="blog-post-head">
+                        <div>
+                            <img src="../../../images/money-guard-1.jpg" class="img-fluid rounded blog-post-img" alt="image of task list">
+                            <h2 class="blog-post-title">MoneyGuard_1 czyli z głowy na papier.</h2>
+                        </div>
+                        <div class="blog-post-meta">
+                            <p class="blog-post-meta">Marzec 15, 2017 przez <a class="link-secondary" href="../../../about.html">Krzysztof Skorupa</a></p>
+                            <a href="../../dsp2017/posts.html"><span class="badge badge-primary">dsp2017</span></a>
+                        </div>
+                        <i class="anchor" id="post-body-mg-1"></i>
+                        <h3 class="blog-post-attention-p">Każda aplikacja była na początku tylko pomysłem. Ten przelany na papier stawał się zarysem projektu.
+                            Stworzenie pustego szablonu w IDE zaczynało wszystko.</h3>
+                        <hr>
                     </div>
-                    <div class="blog-post-meta">
-                        <p class="blog-post-meta">Marzec 15, 2017 przez <a class="link-secondary" href="../../../about.html">Krzysztof Skorupa</a></p>
-                        <a href="../../dsp2017/posts.html"><span class="badge badge-primary">dsp2017</span></a>
-                    </div>
-                    <i class="anchor" id="post-body-mg-1"></i>
-                    <h3 class="blog-post-attention-p">Każda aplikacja była na początku tylko pomysłem. Ten przelany na papier stawał się zarysem projektu. Stworzenie pustego szablonu w IDE zaczynało wszystko.</h3>
-                    <hr>
-                </div>
-                <div class="blog-post-body">
-                    <h3>Od pomysłu do przelania na papier.</h3>
-                    <p>Zanim napiszemy choć linijkę kodu siadamy wygodnie w fotelu, kładziemy przed sobą pustą białą kartkę i piszemy. Wszystko. Każdą myśl związaną z produktem, który chcemy stworzyć. Czy to będzie aplikacja, czy logo bądź strona internetowa.</p>
-                    <p>Jeśli myślisz, że możesz ten proces pominąć, niestety najprawdopodobniej spędzisz godzinę bądź więcej na pisaniu kodu żeby zorientować się, że dodanie najmniejszego elementu nie będzie tworzyło spójnej całości i ..</p>
-                    <code><kbd>ctrl+a</kbd> -> <kbd>del</kbd></code>
-                    <p class="under-code-tag-fix">Gdy mamy już kartkę wypełnioną pomysłami położymy ją z dala od zasięgu naszego wzroku i zrobimy coś innego.</p>
-                    <blockquote class="blockquote">– zaraz! przecież mieliśmy tworzyć soft!</blockquote>
-                    <p>Oczywiście będziemy ale następnego dnia.
-                        Chodzi po prostu o to, żeby nasz pomysł mógł się ‚usiedzieć’ w głowie. Co nam to da? Gwarantuję, że gdy rzucimy okiem na naszą kartkę następnego dnia będziemy w stanie bardzo szybko stwierdzić</p>
-                    <blockquote class="blockquote">– potrzebuje jeszcze a, b – z i x jest zupełnie niepotrzebne.</blockquote>
-                    <p>Wszystko dodajemy na kartkę i zabieramy się za stworzenie listy funkcjonalności, które zaimplementujemy w naszej aplikacji.</p>
-                    <h3>Krótka lista funkcjonalności.</h3>
-                    <p>Możemy to robić dalej na papierze, ja jednak wolę mieć takie listy już w formie elektronicznej żeby łatwo je posegregować i wizualnie podzielić na kategorie. Programów do tego jest mnóstwo. Ja używam Google Keep. Jest prosty, mam go wszędzie, od kalkulatora po mainframe gdzieś na drugim końcu świata.</p>
-                    <img src="../../../images/lista%20funkcjonalności%20MoneyGuard.png" class="rounded img-fluid" alt="Lista funkcjonalności">
-                    <p>Tak wygląda lista, którą przygotowałem na podstawie moich wcześniejszych notatek z pustej, białej kartki – pamiętasz ją jeszcze?</p>
-                    <h3>Teraz czas na podzielenie tego na priorytety.</h3>
-                    <img src="../../../images/lista%20priorytetów.png" class="rounded img-fluid" alt="priorytety">
-                    <p>Wszystko w jednym miejscu. Do tego kolory priorytetów na pierwszy rzut oka mówią co najważniejsze a co można dodać później.</p>
-                    <p>Wyjaśnijmy sobie teraz dlaczego podzieliłem zadania właśnie w ten sposób.</p>
-                    <h3>Priorytet #1</h3>
-                    <p>Możliwość dodania wydatku będzie pierwszą funkcjonalnością bo przecież żeby wyświetlić listę wydatków na bieżący miesiąc musimy takie najpierw mieć! Dodanie kategorii nie musiało znaleźć się w #1 bo użytkownik będzie miał możliwość do wybrania jednej z domyślnych. Jednak przypomniałem sobie jak zainstalowałem kiedyś taką aplikację i pierwsze co chciałem zrobić to dostosować sobie kategorie tak jak mi pasowało bo nie znoszę jak mi ktoś narzuca co mam robić. Też tak macie?</p>
-                    <h3>Priorytet #2</h3>
-                    <p>Na drugi ogień idzie wyświetlenie listy wydatków. Tak, gdy nasz użytkownik odchudzi już swój portfel wydając pieniądze i dodając ten fakt do appki będzie przecież chciał zobaczyć jak BARDZO jego zasoby się uszczupliły.</p>
-                    <h3>Priorytet #3</h3>
-                    <p>Mamy już dodawanie wydatków, wyświetlanie jej na stronie więc trzeba się zastanowić co jeszcze będzie potrzebne.
-                        Co gdy Janusz się pomyli i wpisze złą kwotę lub wybierze nie tą kategorię, którą chciał? Przecież jak nie umożliwimy mu usunięcia albo edycji takiego rekordu pohejtuje nas w całym internecie i już nigdy niczego nie wypuścimy na rynek bo nasza reputacja legnie w gruzach.</p>
-                    <h3>Priorytet #4</h3>
-                    <p>Opcja zmiany waluty doda uniwersalność naszemu rozwiązaniu. Oczywiście moglibyśmy w ogóle nie definiować waluty ale wyglądałoby to dziwnie. Możliwość zmiany sposobu listowania wydatków też będzie użytecznym dla Grażynki ‚ficzerem’.</p>
-                    <h3>Uporaliśmy się już z głownymi możliwościami naszej aplikacji, co dalej?</h3>
-                    <p>Wszystko co potrzebne już działa, teraz czas na poprawę wyglądu, zastanowienie się czy moglibyśmy dodać jeszcze jakieś ciekawe funkcje …</p>
-                    <blockquote class="blockquote">– ZARAZ! a co z logowaniem się przez Facebooka i Google? – co z jakimkolwiek logowaniem?! jak ktoś ma zarządzać wydatkami jak nie ma konta?</blockquote>
-                    <p>Spokojnie, jeśli chodzi o konta użytkowników i podstawową mechanikę tworzenia konta to pomoże nam ASP.NET Identity.
-                        Nie umieściłem tego na liście ponieważ zwykłe logowanie zaimplementujemy po pierwszej iteracji (jak stworzymy dodawanie wydatków). Przecież żeby dodawać wydatki klient musi być zalogowany (o tym jak opowiem w późniejszym czasie).</p>
-                    <p></p>
-                    <h3>Wszystko poukładane. Rozbiliśmy nasz problem na mniejsze i możemy teraz zabierać się za pisanie pierwszych linijek kodu. Unikniemy skakania pomiędzy zadaniami. Tworzenie bałaganu i marnowanie czasu już nam nie straszne.
+                    <div class="blog-post-body">
+                        <h3>Od pomysłu do przelania na papier.</h3>
+                        <p>Zanim napiszemy choć linijkę kodu siadamy wygodnie w fotelu, kładziemy przed sobą pustą białą kartkę
+                            i piszemy. Wszystko. Każdą myśl związaną z produktem, który chcemy stworzyć. Czy to będzie aplikacja,
+                            czy logo bądź strona internetowa.</p>
+                        <p>Jeśli myślisz, że możesz ten proces pominąć, niestety najprawdopodobniej spędzisz godzinę bądź więcej
+                            na pisaniu kodu żeby zorientować się, że dodanie najmniejszego elementu nie będzie tworzyło spójnej
+                            całości i ..</p>
+                        <code><kbd>ctrl+a</kbd> -> <kbd>del</kbd></code>
+                        <p class="under-code-tag-fix">Gdy mamy już kartkę wypełnioną pomysłami położymy ją z dala od zasięgu naszego wzroku i zrobimy coś
+                            innego.</p>
+                        <blockquote class="blockquote">– zaraz! przecież mieliśmy tworzyć soft!</blockquote>
+                        <p>Oczywiście będziemy ale następnego dnia. Chodzi po prostu o to, żeby nasz pomysł mógł się ‚usiedzieć’
+                            w głowie. Co nam to da? Gwarantuję, że gdy rzucimy okiem na naszą kartkę następnego dnia będziemy
+                            w stanie bardzo szybko stwierdzić</p>
+                        <blockquote class="blockquote">– potrzebuje jeszcze a, b – z i x jest zupełnie niepotrzebne.</blockquote>
+                        <p>Wszystko dodajemy na kartkę i zabieramy się za stworzenie listy funkcjonalności, które zaimplementujemy
+                            w naszej aplikacji.</p>
+                        <h3>Krótka lista funkcjonalności.</h3>
+                        <p>Możemy to robić dalej na papierze, ja jednak wolę mieć takie listy już w formie elektronicznej żeby
+                            łatwo je posegregować i wizualnie podzielić na kategorie. Programów do tego jest mnóstwo. Ja
+                            używam Google Keep. Jest prosty, mam go wszędzie, od kalkulatora po mainframe gdzieś na drugim
+                            końcu świata.</p>
+                        <img src="../../../images/lista%20funkcjonalności%20MoneyGuard.png" class="rounded img-fluid" alt="Lista funkcjonalności">
+                        <p>Tak wygląda lista, którą przygotowałem na podstawie moich wcześniejszych notatek z pustej, białej
+                            kartki – pamiętasz ją jeszcze?</p>
+                        <h3>Teraz czas na podzielenie tego na priorytety.</h3>
+                        <img src="../../../images/lista%20priorytetów.png" class="rounded img-fluid" alt="priorytety">
+                        <p>Wszystko w jednym miejscu. Do tego kolory priorytetów na pierwszy rzut oka mówią co najważniejsze
+                            a co można dodać później.</p>
+                        <p>Wyjaśnijmy sobie teraz dlaczego podzieliłem zadania właśnie w ten sposób.</p>
+                        <h3>Priorytet #1</h3>
+                        <p>Możliwość dodania wydatku będzie pierwszą funkcjonalnością bo przecież żeby wyświetlić listę wydatków
+                            na bieżący miesiąc musimy takie najpierw mieć! Dodanie kategorii nie musiało znaleźć się w #1
+                            bo użytkownik będzie miał możliwość do wybrania jednej z domyślnych. Jednak przypomniałem sobie
+                            jak zainstalowałem kiedyś taką aplikację i pierwsze co chciałem zrobić to dostosować sobie kategorie
+                            tak jak mi pasowało bo nie znoszę jak mi ktoś narzuca co mam robić. Też tak macie?</p>
+                        <h3>Priorytet #2</h3>
+                        <p>Na drugi ogień idzie wyświetlenie listy wydatków. Tak, gdy nasz użytkownik odchudzi już swój portfel
+                            wydając pieniądze i dodając ten fakt do appki będzie przecież chciał zobaczyć jak BARDZO jego
+                            zasoby się uszczupliły.</p>
+                        <h3>Priorytet #3</h3>
+                        <p>Mamy już dodawanie wydatków, wyświetlanie jej na stronie więc trzeba się zastanowić co jeszcze będzie
+                            potrzebne. Co gdy Janusz się pomyli i wpisze złą kwotę lub wybierze nie tą kategorię, którą chciał?
+                            Przecież jak nie umożliwimy mu usunięcia albo edycji takiego rekordu pohejtuje nas w całym internecie
+                            i już nigdy niczego nie wypuścimy na rynek bo nasza reputacja legnie w gruzach.</p>
+                        <h3>Priorytet #4</h3>
+                        <p>Opcja zmiany waluty doda uniwersalność naszemu rozwiązaniu. Oczywiście moglibyśmy w ogóle nie definiować
+                            waluty ale wyglądałoby to dziwnie. Możliwość zmiany sposobu listowania wydatków też będzie użytecznym
+                            dla Grażynki ‚ficzerem’.</p>
+                        <h3>Uporaliśmy się już z głownymi możliwościami naszej aplikacji, co dalej?</h3>
+                        <p>Wszystko co potrzebne już działa, teraz czas na poprawę wyglądu, zastanowienie się czy moglibyśmy
+                            dodać jeszcze jakieś ciekawe funkcje …</p>
+                        <blockquote class="blockquote">– ZARAZ! a co z logowaniem się przez Facebooka i Google? – co z jakimkolwiek logowaniem?! jak ktoś
+                            ma zarządzać wydatkami jak nie ma konta?</blockquote>
+                        <p>Spokojnie, jeśli chodzi o konta użytkowników i podstawową mechanikę tworzenia konta to pomoże nam
+                            ASP.NET Identity. Nie umieściłem tego na liście ponieważ zwykłe logowanie zaimplementujemy po
+                            pierwszej iteracji (jak stworzymy dodawanie wydatków). Przecież żeby dodawać wydatki klient musi
+                            być zalogowany (o tym jak opowiem w późniejszym czasie).</p>
+                        <p></p>
+                        <h3>Wszystko poukładane. Rozbiliśmy nasz problem na mniejsze i możemy teraz zabierać się za pisanie pierwszych
+                            linijek kodu. Unikniemy skakania pomiędzy zadaniami. Tworzenie bałaganu i marnowanie czasu już
+                            nam nie straszne.
                         </h3>
-                    <h3>Do dzieła!</h3>
-                </div>
-                <div class="row share-buttons">
-                    <div class="col-md-8">
-                        <h4><span class="color-primary">Podobało się?</span> Nie zapomnij podzielić się ze światem!</h4>
-                        <div class="row justify-content-start align-items-center blog-post-share">
-                            <iframe class="fb-share" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fdevbulbcompl&width=60&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId=1454905917876608"></iframe>
-                            <a href="https://twitter.com/intent/tweet?text=Poznaj+devbulb+-+coś+więcej+niż+programowanie+na+&original_referer=http://devbulb.com.pl/&via=krisSzell" class="twitter-mention-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            <div class="btn btn-email"><a href="mailto:skorupa.krzysztof1@gmail.com?subject=devbulb.com.pl+-+poznajmy+się"><img src="../../../images/mail-icon.png"  alt="main icon"><span>Napisz email</span></a></div>
+                        <h3>Do dzieła!</h3>
+                    </div>
+                    <div class="row share-buttons">
+                        <div class="col-md-8">
+                            <h4><span class="color-primary">Podobało się?</span> Nie zapomnij podzielić się ze światem!</h4>
+                            <div class="row justify-content-start align-items-center blog-post-share">
+                                <iframe class="fb-share" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2Fdevbulbcompl%2F&layout=button&size=small&mobile_iframe=true&appId=1454905917876608&width=58&height=20"
+                                    width="58" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                    allowTransparency="true"></iframe>
+                                <a href="https://twitter.com/intent/tweet?text=Poznaj+devbulb+-+coś+więcej+niż+programowanie+na+&original_referer=http://devbulb.com.pl/&via=krisSzell"
+                                    class="twitter-mention-button" data-show-count="false">Tweet</a>
+                                <script
+                                    async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    <div class="btn btn-email">
+                                        <a href="mailto:skorupa.krzysztof1@gmail.com?subject=devbulb.com.pl+-+poznajmy+się"><img src="../../../images/mail-icon.png" alt="main icon"><span>Napisz email</span></a>
+                                    </div>
+                            </div>
                         </div>
                     </div>
+                </article>
+                <!-- /.blog-post -->
+
+            </div>
+
+            <aside class="col-sm-3 offset-sm-1 blog-sidebar">
+                <div class="sidebar-module sidebar-module-fb">
+                    <div class="fb-page" data-href="https://www.facebook.com/devbulbcompl" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+                        data-hide-cover="false" data-height="300" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/devbulbcompl" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/devbulbcompl">Devbulb.com.pl - coś więcej niż programowanie</a>
+                        </blockquote>
+                    </div>
                 </div>
-            </article><!-- /.blog-post -->
+                <div class="sidebar-module sidebar-module-inset">
+                    <h4>O mnie</h4>
+                    <img src="../../../images/selfie-2.png" class="img-fluid img-small" alt="image of the author">
+                    <p>Student, (wkrótce) Full-Stack Web Developer, od niedawna blogger, entuzjasta motoryzacji, pasjonat technologii
+                        <em class="color-primary"><b>Microsoftu</b></em>. Jeśli słyszysz zbyt głośną muzykę to prawdopodobnie
+                        ja.</p>
+                </div>
+                <div class="sidebar-module">
+                    <h4>Kategorie</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="#">Dev</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">DSP 2017</a></li>
+                    </ol>
+                </div>
+                <div class="sidebar-module">
+                    <h4>Tutaj też mnie znajdziesz</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="https://www.facebook.com/krisSzell">Facebook</a></li>
+                        <li><a href="https://www.linkedin.com/in/krisshell/">LinkedIN</a></li>
+                        <li><a href="https://twitter.com/krisSzell">Twitter</a></li>
+                        <li><a href="https://github.com/krisSzell">GitHub</a></li>
+                        <li><a href="https://www.instagram.com/kris_szell/">Instagram</a></li>
+                        <li><a href="http://codepen.io/krisSzell/">Codepen</a></li>
+                    </ol>
+                </div>
+            </aside>
+            <!-- /.blog-sidebar -->
 
         </div>
+    </section>
 
-        <aside class="col-sm-3 offset-sm-1 blog-sidebar">
-            <div class="sidebar-module sidebar-module-fb">
-                <div class="fb-page"
-                     data-href="https://www.facebook.com/devbulbcompl"
-                     data-tabs="timeline"
-                     data-small-header="false"
-                     data-adapt-container-width="true"
-                     data-hide-cover="false"
-                     data-height="300"
-                     data-show-facepile="true">
-                    <blockquote cite="https://www.facebook.com/devbulbcompl" class="fb-xfbml-parse-ignore">
-                        <a href="https://www.facebook.com/devbulbcompl">Devbulb.com.pl - coś więcej niż programowanie</a>
-                    </blockquote>
+    <footer class="text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h4>Krzysztof Skorupa</h4>
+                    <img src="../../../images/selfie.png" class="img-fluid img-small" alt="image of the author">
+                    <p>Student / (wkrótce) Full-Stack Web Developer / Początkujący blogger / Entuzjasta motoryzacji / Hobbistyczny
+                        designer / <a href="../../../about.html" class="link-secondary">więcej &hellip;</a></p>
+                </div>
+                <div class="col-sm">
+                    <h4>Social Media</h4>
+                    <div class="row justify-content-start align-items-around social-media-links">
+                        <a href="https://www.facebook.com/krisSzell"><i class="fa fa-facebook-f fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/krisshell/"><i class="fa fa-linkedin fa-2x"></i></a>
+                        <a href="https://twitter.com/krisSzell"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a href="https://github.com/krisSzell"><i class="fa fa-github fa-2x"></i></a>
+                        <a href="https://www.instagram.com/kris_szell/"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="http://codepen.io/krisSzell/"><i class="fa fa-codepen fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <h4>Ciekawe miejsca</h4>
+                    <a href="https://unsplash.com/new?grid=multi">Unsplash</a>
+                    <a href="https://www.lumosity.com/">Lumosity</a>
+                    <a href="http://volantification.pl/">Volantification</a>
+                    <a href="https://css-tricks.com">CSS-Tricks</a>
+                    <a href="https://devstyle.pl">devstyle.pl</a>
                 </div>
             </div>
-            <div class="sidebar-module sidebar-module-inset">
-                <h4>O mnie</h4>
-                <img src="../../../images/selfie-2.png" class="img-fluid img-small" alt="image of the author">
-                <p>Student, (wkrótce) Full-Stack Web Developer, od niedawna blogger, entuzjasta motoryzacji, pasjonat technologii <em class="color-primary"><b>Microsoftu</b></em>. Jeśli słyszysz zbyt głośną muzykę to prawdopodobnie ja.</p>
-            </div>
-            <div class="sidebar-module">
-                <h4>Kategorie</h4>
-                <ol class="list-unstyled">
-                    <li><a href="#">Dev</a></li>
-                    <li><a href="#">Lifestyle</a></li>
-                    <li><a href="#">DSP 2017</a></li>
-                </ol>
-            </div>
-            <div class="sidebar-module">
-                <h4>Tutaj też mnie znajdziesz</h4>
-                <ol class="list-unstyled">
-                    <li><a href="https://www.facebook.com/krisSzell">Facebook</a></li>
-                    <li><a href="https://www.linkedin.com/in/krisshell/">LinkedIN</a></li>
-                    <li><a href="https://twitter.com/krisSzell">Twitter</a></li>
-                    <li><a href="https://github.com/krisSzell">GitHub</a></li>
-                    <li><a href="https://www.instagram.com/kris_szell/">Instagram</a></li>
-                    <li><a href="http://codepen.io/krisSzell/">Codepen</a></li>
-                </ol>
-            </div>
-        </aside><!-- /.blog-sidebar -->
+            <p class="float-right">
 
-    </div>
-</section>
-
-<footer class="text-muted">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <h4>Krzysztof Skorupa</h4>
-                <img src="../../../images/selfie.png" class="img-fluid img-small" alt="image of the author">
-                <p>Student / (wkrótce) Full-Stack Web Developer / Początkujący blogger / Entuzjasta motoryzacji / Hobbistyczny designer / <a href="../../../about.html" class="link-secondary">więcej &hellip;</a></p>
-            </div>
-            <div class="col-sm">
-                <h4>Social Media</h4>
-                <div class="row justify-content-start align-items-around social-media-links">
-                    <a href="https://www.facebook.com/krisSzell"><i class="fa fa-facebook-f fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/in/krisshell/"><i class="fa fa-linkedin fa-2x"></i></a>
-                    <a href="https://twitter.com/krisSzell"><i class="fa fa-twitter fa-2x"></i></a>
-                    <a href="https://github.com/krisSzell"><i class="fa fa-github fa-2x"></i></a>
-                    <a href="https://www.instagram.com/kris_szell/"><i class="fa fa-instagram fa-2x"></i></a>
-                    <a href="http://codepen.io/krisSzell/"><i class="fa fa-codepen fa-2x"></i></a>
-                </div>
-            </div>
-            <div class="col-sm">
-                <h4>Ciekawe miejsca</h4>
-                <a href="https://unsplash.com/new?grid=multi">Unsplash</a>
-                <a href="https://www.lumosity.com/">Lumosity</a>
-                <a href="http://volantification.pl/">Volantification</a>
-                <a href="https://css-tricks.com">CSS-Tricks</a>
-                <a href="https://devstyle.pl">devstyle.pl</a>
-            </div>
+                <a href="#">Back to top</a>
+            </p>
+            <p><i>Built with Bootstrap 4</i> | Copyright &copy; 2017 | <a href="../../../about.html" class="link-secondary">Krzysztof Skorupa</a></p>
         </div>
-        <p class="float-right">
+    </footer>
 
-            <a href="#">Back to top</a>
-        </p>
-        <p><i>Built with Bootstrap 4</i> | Copyright &copy; 2017 | <a href="../../../about.html" class="link-secondary">Krzysztof Skorupa</a></p>
-    </div>
-</footer>
-
-<script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
-<script src="../../../js/tweetBtn.js"></script>
+    <script src="../../../js/tweetBtn.js"></script>
 </body>
+
 </html>
